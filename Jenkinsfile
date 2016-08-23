@@ -3,7 +3,7 @@ node {
    stage 'Checkout'
 
    // Get some code from a GitHub repository
-   git url: 'https://github.com/jglick/simple-maven-project-with-tests.git'
+   git url: 'https://github.com/TTFHW/jenkins_pipeline_java_maven.git'
 
    // Get the maven tool.
    // ** NOTE: This 'M3' maven tool must be configured
