@@ -2,7 +2,7 @@ node {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
    
-   git url: 'https://github.com/TTFHW/jenkins_pipeline_java_maven.git'
+   scm checkout
 
    // Get the maven tool.
    // ** NOTE: This 'M3' maven tool must be configured
